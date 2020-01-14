@@ -1,0 +1,21 @@
+Kafka Commands
+
+Create Topic
+
+/opt/kafka_2.11-2.3.1/bin/kafka-topics.sh --zookeeper localhost:2181
+--create --topic t_test --partitions 1 --replication-factor 1
+
+List of topics
+
+ /opt/kafka_2.11-2.3.1/bin/kafka-topics.sh --zookeeper localhost:2181 --list
+
+
+ Start zookeeper
+
+ zoozookeeper-server-start.sh -
+ daemon /Users/venkateshvaranasi/Downloads
+ /kafka-2.3.1/config/zookeeper.properties
+
+ Start Kafka
+
+ 
